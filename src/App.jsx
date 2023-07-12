@@ -137,27 +137,32 @@ export default function App() {
           <Container fontSize='3em' p={['0%', '0%', '5%', '5%']} pt={['15%', '10%', '30%', '20%']} textAlign='center'>
             <i className="devicon-html5-plain"></i>
             <i className="devicon-css3-plain"></i>
-            <i className="devicon-php-plain"></i>
             <i className="devicon-javascript-plain"></i>
-            <i className="devicon-python-plain"></i>
+            <i className="devicon-jquery-plain"></i>
+            <i className="devicon-php-plain"></i>
             <i className="devicon-mysql-plain"></i>
             <i className="devicon-oracle-plain"></i>
             <i className="devicon-c-plain"></i>
             <i className="devicon-cplusplus-plain"></i>
+            <i className="devicon-python-plain"></i>
+            <i className="devicon-bash-plain"></i>
             <i className="devicon-java-plain"></i>
             <i className="devicon-ocaml-plain"></i>
             <i className="devicon-arduino-plain"></i>
+            <i className="devicon-nodejs-plain"></i>
+            <i className="devicon-express-original"></i>
+            <i className="devicon-latex-plain"></i>
+            <i className="devicon-flask-plain"></i>
+            <i className="devicon-vuejs-plain"></i>
+            <i className="devicon-react-plain"></i>
+            <i className="devicon-figma-plain"></i>
             <i className="devicon-git-plain"></i>
             <i className="devicon-azure-plain"></i>
             <i className="devicon-github-plain"></i>
             <i className="devicon-gitlab-plain"></i>
-            <i className="devicon-figma-plain"></i>
-            <i className="devicon-flask-plain"></i>
-            <i className="devicon-nodejs-plain"></i>
-            <i className="devicon-vuejs-plain"></i>
-            <i className="devicon-react-plain"></i>
-            <i className="devicon-latex-plain"></i>
             <i className="devicon-bootstrap-plain"></i>
+            <i className="devicon-spring-plain"></i>
+            <i className="devicon-opengl-plain"></i>
           </Container>
         </Container>
       </Box>
