@@ -58,6 +58,20 @@ export const projects = [
   }, {
     id: 4,
     title: {
+      en: "“Minesweeper” game",
+      fr: "Jeu du “Démineur”",
+    },
+    description: {
+      en: "The goal of this project was to learn Java's Swing API by implementing the famous “Minesweeper” game. This project includes three difficulty levels and a custom mode, allowing the player to manually set the size of the grid and the number of bombs.",
+      fr: "Le but de ce projet était d'apprendre l'API Swing de Java en implémentant le célèbre jeu du “Démineur”. Ce projet inclus trois niveaux de difficulté et un mode personnalisé, permettant au joueur de paramétrer la taille de la grille et le nombre de bombes.",
+    },
+    tags: ["Java", "Swing"],
+    thumbnail: `${import.meta.env.BASE_URL}minesweeper/thumbnail.png`,
+    images: [`${import.meta.env.BASE_URL}minesweeper/1.png`, `${import.meta.env.BASE_URL}minesweeper/2.png`, `${import.meta.env.BASE_URL}minesweeper/3.png`, `${import.meta.env.BASE_URL}minesweeper/4.png`],
+    repository: "https://github.com/0lbap/minesweeper",
+  }, {
+    id: 5,
+    title: {
       en: "This portfolio",
       fr: "Ce portfolio",
     },
