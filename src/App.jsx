@@ -161,6 +161,7 @@ export default function App() {
             <i className="devicon-github-plain"></i>
             <i className="devicon-gitlab-plain"></i>
             <i className="devicon-bootstrap-plain"></i>
+            <i className="devicon-tailwindcss-plain"></i>
             <i className="devicon-spring-plain"></i>
             <i className="devicon-opengl-plain"></i>
           </Container>

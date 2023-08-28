@@ -72,6 +72,20 @@ export const projects = [
   }, {
     id: 5,
     title: {
+      en: "“Y”, a social network clone",
+      fr: "“Y”, clone d'un réseau social",
+    },
+    description: {
+      en: "A responsive web application inspired by a very famous social network. This project aims to discover and learn Tailwind CSS by trying to recreate the original look of a famous social network. It uses Vue Router for the different views and Vue I18n for internationalization.",
+      fr: "Une application web responsive inspirée d'un réseau social très connu. Ce projet a pour objectif de découvrir et apprendre Tailwind CSS en recréant l'interface d'un réseau social connu. Il utilise Vue Router pour les différentes vues et Vue I18n pour l'internationalisation.",
+    },
+    tags: ["Vue.js", "Tailwind CSS", "i18n"],
+    thumbnail: `${import.meta.env.BASE_URL}y/thumbnail.png`,
+    images: [`${import.meta.env.BASE_URL}y/1.png`, `${import.meta.env.BASE_URL}y/2.png`, `${import.meta.env.BASE_URL}y/3.png`, `${import.meta.env.BASE_URL}y/4.png`],
+    repository: "https://github.com/0lbap/y",
+  }, {
+    id: 6,
+    title: {
       en: "This portfolio",
       fr: "Ce portfolio",
     },
