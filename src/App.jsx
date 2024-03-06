@@ -155,6 +155,8 @@ export default function App() {
             <i className="devicon-flask-plain"></i>
             <i className="devicon-vuejs-plain"></i>
             <i className="devicon-react-plain"></i>
+            <i className="devicon-angularjs-plain"></i>
+            <i className="devicon-symfony-plain"></i>
             <i className="devicon-figma-plain"></i>
             <i className="devicon-git-plain"></i>
             <i className="devicon-azure-plain"></i>
@@ -164,6 +166,9 @@ export default function App() {
             <i className="devicon-tailwindcss-plain"></i>
             <i className="devicon-spring-plain"></i>
             <i className="devicon-opengl-plain"></i>
+            <i className="devicon-rust-plain"></i>
+            <i className="devicon-kotlin-plain"></i>
+            <i className="devicon-docker-plain"></i>
           </Container>
         </Container>
       </Box>

@@ -86,6 +86,20 @@ export const projects = [
   }, {
     id: 6,
     title: {
+      en: "Lisp VM and compiler",
+      fr: "VM et compilateur Lisp",
+    },
+    description: {
+      en: "This project aims to write, in Common Lisp, a register-based virtual machine capable of executing assembly instructions, as well as a compiler from Lisp to this assembly language. Unit tests as well as performance tests have been conducted.",
+      fr: "Ce projet vise à écrire, en Common Lisp, une machine virtuelle à registres capable d'exécuter des instructions assembleur, ainsi qu'un compilateur de Lisp vers ce langage d'assembleur. Des tests unitaires ainsi que des tests de performances ont été effectués.",
+    },
+    tags: ["Lisp", "Assembly"],
+    thumbnail: `${import.meta.env.BASE_URL}lisp-vm-compiler/thumbnail.png`,
+    images: [`${import.meta.env.BASE_URL}lisp-vm-compiler/1.png`, `${import.meta.env.BASE_URL}lisp-vm-compiler/2.png`, `${import.meta.env.BASE_URL}lisp-vm-compiler/3.png`, `${import.meta.env.BASE_URL}lisp-vm-compiler/4.png`],
+    repository: "https://gitlab.com/Muddinana/lisp_vm_compiler",
+  }, {
+    id: 7,
+    title: {
       en: "This portfolio",
       fr: "Ce portfolio",
     },
