@@ -24,12 +24,12 @@ export const translations = {
         fr: "Moi, c'est Pablo",
     },
     self_occupation: {
-        en: "Computer science student and web developer",
-        fr: "Étudiant en informatique et développeur web",
+        en: "Computer science student and software engineer",
+        fr: "Étudiant en informatique et ingénieur logiciel",
     },
     self_background: {
-        en: "I've always had interest in technology. I have a Bachelor's Degree in Computer Science, and I am currently studying software engineering for a Master's Degree in France. I love to learn new languages and discover new things!",
-        fr: "J'ai toujours été passionné par la technologie. Possesseur d'une Licence d'Informatique, j'étudie actuellement l'ingénierie logicielle en Master Informatique en France. J'adore apprendre de nouveaux langages et découvrir de nouvelles choses !",
+        en: "I've always had interest in technology. I have a Bachelor's Degree in Computer Science, and I am currently studying software engineering for a Master's Degree in France. I love to learn new concepts, programming languages and frameworks. I'm eager to discover new things!",
+        fr: "J'ai toujours été passionné par la technologie. Possesseur d'une Licence d'Informatique, j'étudie actuellement l'ingénierie logicielle en Master Informatique en France. J'adore apprendre des nouveaux concepts, langages de programmations et frameworks. J'ai hâte de découvrir de nouvelles choses !",
     },
     check_out_my_work: {
         en: "Check out my work",
@@ -60,7 +60,7 @@ export const translations = {
         fr: "Technologies",
     },
     technologies_description: {
-        en: "Some languages and tools I have used.",
-        fr: "Quelques langages et outils que j'ai déjà utilisés.",
+        en: "Some languages, frameworks and tools I have used.",
+        fr: "Quelques langages, frameworks et outils que j'ai déjà utilisés.",
     },
 }
