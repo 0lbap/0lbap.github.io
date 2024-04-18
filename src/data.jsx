@@ -11,9 +11,20 @@ export const projects = [
     },
     tags: ["JavaScript", "Express", "Socket.IO"],
     thumbnail: `${import.meta.env.BASE_URL}guess-who/thumbnail.png`,
-    images: [`${import.meta.env.BASE_URL}guess-who/1.png`, `${import.meta.env.BASE_URL}guess-who/2.png`, `${import.meta.env.BASE_URL}guess-who/3.png`, `${import.meta.env.BASE_URL}guess-who/4.png`, `${import.meta.env.BASE_URL}guess-who/5.png`, `${import.meta.env.BASE_URL}guess-who/6.png`, `${import.meta.env.BASE_URL}guess-who/7.png`, `${import.meta.env.BASE_URL}guess-who/8.png`, `${import.meta.env.BASE_URL}guess-who/9.png`],
+    images: [
+      `${import.meta.env.BASE_URL}guess-who/1.png`,
+      `${import.meta.env.BASE_URL}guess-who/2.png`,
+      `${import.meta.env.BASE_URL}guess-who/3.png`,
+      `${import.meta.env.BASE_URL}guess-who/4.png`,
+      `${import.meta.env.BASE_URL}guess-who/5.png`,
+      `${import.meta.env.BASE_URL}guess-who/6.png`,
+      `${import.meta.env.BASE_URL}guess-who/7.png`,
+      `${import.meta.env.BASE_URL}guess-who/8.png`,
+      `${import.meta.env.BASE_URL}guess-who/9.png`,
+    ],
     repository: "https://github.com/0lbap/quiestce",
-  }, {
+  },
+  {
     id: 1,
     title: {
       en: "“check-this-outfit”, an e-commerce website",
@@ -25,9 +36,17 @@ export const projects = [
     },
     tags: ["PHP", "MySQL", "Bootstrap"],
     thumbnail: `${import.meta.env.BASE_URL}check-this-outfit/thumbnail.png`,
-    images: [`${import.meta.env.BASE_URL}check-this-outfit/1.png`, `${import.meta.env.BASE_URL}check-this-outfit/2.png`, `${import.meta.env.BASE_URL}check-this-outfit/3.png`, `${import.meta.env.BASE_URL}check-this-outfit/4.png`, `${import.meta.env.BASE_URL}check-this-outfit/5.png`, `${import.meta.env.BASE_URL}check-this-outfit/6.png`],
+    images: [
+      `${import.meta.env.BASE_URL}check-this-outfit/1.png`,
+      `${import.meta.env.BASE_URL}check-this-outfit/2.png`,
+      `${import.meta.env.BASE_URL}check-this-outfit/3.png`,
+      `${import.meta.env.BASE_URL}check-this-outfit/4.png`,
+      `${import.meta.env.BASE_URL}check-this-outfit/5.png`,
+      `${import.meta.env.BASE_URL}check-this-outfit/6.png`,
+    ],
     repository: "https://github.com/0lbap/check-this-outfit",
-  }, {
+  },
+  {
     id: 2,
     title: {
       en: "“TER • Rébus”, an online rebus generator",
@@ -39,9 +58,19 @@ export const projects = [
     },
     tags: ["Flask", "SQLAlchemy", "React", "Bootstrap"],
     thumbnail: `${import.meta.env.BASE_URL}terrebus/thumbnail.png`,
-    images: [`${import.meta.env.BASE_URL}terrebus/1.png`, `${import.meta.env.BASE_URL}terrebus/2.png`, `${import.meta.env.BASE_URL}terrebus/3.png`, `${import.meta.env.BASE_URL}terrebus/4.png`, `${import.meta.env.BASE_URL}terrebus/5.png`, `${import.meta.env.BASE_URL}terrebus/6.png`, `${import.meta.env.BASE_URL}terrebus/7.png`, `${import.meta.env.BASE_URL}terrebus/8.png`],
+    images: [
+      `${import.meta.env.BASE_URL}terrebus/1.png`,
+      `${import.meta.env.BASE_URL}terrebus/2.png`,
+      `${import.meta.env.BASE_URL}terrebus/3.png`,
+      `${import.meta.env.BASE_URL}terrebus/4.png`,
+      `${import.meta.env.BASE_URL}terrebus/5.png`,
+      `${import.meta.env.BASE_URL}terrebus/6.png`,
+      `${import.meta.env.BASE_URL}terrebus/7.png`,
+      `${import.meta.env.BASE_URL}terrebus/8.png`,
+    ],
     repository: "https://gitlab.com/pablolaviron/ter-rebus-frontend",
-  }, {
+  },
+  {
     id: 3,
     title: {
       en: "Online “Pictochat” clone",
@@ -53,9 +82,13 @@ export const projects = [
     },
     tags: ["JavaScript", "Express", "Socket.IO"],
     thumbnail: `${import.meta.env.BASE_URL}pictochat/thumbnail.png`,
-    images: [`${import.meta.env.BASE_URL}pictochat/1.png`, `${import.meta.env.BASE_URL}pictochat/2.png`],
+    images: [
+      `${import.meta.env.BASE_URL}pictochat/1.png`,
+      `${import.meta.env.BASE_URL}pictochat/2.png`,
+    ],
     repository: "https://github.com/0lbap/pictochat",
-  }, {
+  },
+  {
     id: 4,
     title: {
       en: "“Minesweeper” game",
@@ -67,9 +100,15 @@ export const projects = [
     },
     tags: ["Java", "Swing"],
     thumbnail: `${import.meta.env.BASE_URL}minesweeper/thumbnail.png`,
-    images: [`${import.meta.env.BASE_URL}minesweeper/1.png`, `${import.meta.env.BASE_URL}minesweeper/2.png`, `${import.meta.env.BASE_URL}minesweeper/3.png`, `${import.meta.env.BASE_URL}minesweeper/4.png`],
+    images: [
+      `${import.meta.env.BASE_URL}minesweeper/1.png`,
+      `${import.meta.env.BASE_URL}minesweeper/2.png`,
+      `${import.meta.env.BASE_URL}minesweeper/3.png`,
+      `${import.meta.env.BASE_URL}minesweeper/4.png`,
+    ],
     repository: "https://github.com/0lbap/minesweeper",
-  }, {
+  },
+  {
     id: 5,
     title: {
       en: "“Y”, a social network clone",
@@ -81,9 +120,15 @@ export const projects = [
     },
     tags: ["Vue.js", "Tailwind CSS", "i18n"],
     thumbnail: `${import.meta.env.BASE_URL}y/thumbnail.png`,
-    images: [`${import.meta.env.BASE_URL}y/1.png`, `${import.meta.env.BASE_URL}y/2.png`, `${import.meta.env.BASE_URL}y/3.png`, `${import.meta.env.BASE_URL}y/4.png`],
+    images: [
+      `${import.meta.env.BASE_URL}y/1.png`,
+      `${import.meta.env.BASE_URL}y/2.png`,
+      `${import.meta.env.BASE_URL}y/3.png`,
+      `${import.meta.env.BASE_URL}y/4.png`,
+    ],
     repository: "https://github.com/0lbap/y",
-  }, {
+  },
+  {
     id: 6,
     title: {
       en: "Lisp VM and compiler",
@@ -95,10 +140,58 @@ export const projects = [
     },
     tags: ["Lisp", "Assembly"],
     thumbnail: `${import.meta.env.BASE_URL}lisp-vm-compiler/thumbnail.png`,
-    images: [`${import.meta.env.BASE_URL}lisp-vm-compiler/1.png`, `${import.meta.env.BASE_URL}lisp-vm-compiler/2.png`, `${import.meta.env.BASE_URL}lisp-vm-compiler/3.png`, `${import.meta.env.BASE_URL}lisp-vm-compiler/4.png`],
+    images: [
+      `${import.meta.env.BASE_URL}lisp-vm-compiler/1.png`,
+      `${import.meta.env.BASE_URL}lisp-vm-compiler/2.png`,
+      `${import.meta.env.BASE_URL}lisp-vm-compiler/3.png`,
+      `${import.meta.env.BASE_URL}lisp-vm-compiler/4.png`,
+    ],
     repository: "https://gitlab.com/Muddinana/lisp_vm_compiler",
-  }, {
+  },
+  {
     id: 7,
+    title: {
+      en: "“Chicken Chase” game",
+      fr: "Jeu “Chicken Chase”",
+    },
+    description: {
+      en: "The goal of this project was to implement Agent Oriented Programming's action logic by programming a simple game in Godot with two classes of agents (chickens and farmers) that behaves by knowing what surrounds them through a vision cone.",
+      fr: "L'objectif de ce projet était d'implémenter la logique des actions de la Programmation Orientée Agents en programmant un jeu simple fait sur Godot avec deux classes d'agents (poules et fermiers) qui se comportent selon ce qui les entoure à travers un cône de vision.",
+    },
+    tags: ["Godot", "GDScript"],
+    thumbnail: `${import.meta.env.BASE_URL}chicken-chase/thumbnail.png`,
+    images: [
+      `${import.meta.env.BASE_URL}chicken-chase/1.png`,
+      `${import.meta.env.BASE_URL}chicken-chase/2.png`,
+      `${import.meta.env.BASE_URL}chicken-chase/3.png`,
+      `${import.meta.env.BASE_URL}chicken-chase/4.png`,
+      `${import.meta.env.BASE_URL}chicken-chase/5.gif`,
+    ],
+    repository: "https://gitlab.com/farmers3/chickenchase",
+  },
+  {
+    id: 8,
+    title: {
+      en: "“Bunnies Bistro” game",
+      fr: "Jeu “Bunny Bistro”",
+    },
+    description: {
+      en: "This project aims to implement Agent Oriented Programming's action logic by programming a complex game in Godot with three classes of agents (8 customers, 2 waiters and 2 cooks), each having a given role and the ability to interact with each other through a food ordering system.",
+      fr: "Ce projet a pour objectif d'implémenter la logique des actions de la Programmation Orientée Agents en programmant un jeu complexe fait sur Godot avec trois classes d'agents (8 clients, 2 serveurs et 2 cuisiniers), chacun ayant son propre rôle et la possibilité d'interagir entre eux à travers un système de commande de nourriture.",
+    },
+    tags: ["Godot", "GDScript"],
+    thumbnail: `${import.meta.env.BASE_URL}bunnies-bistro/thumbnail.png`,
+    images: [
+      `${import.meta.env.BASE_URL}bunnies-bistro/1.png`,
+      `${import.meta.env.BASE_URL}bunnies-bistro/2.png`,
+      `${import.meta.env.BASE_URL}bunnies-bistro/3.png`,
+      `${import.meta.env.BASE_URL}bunnies-bistro/4.png`,
+      `${import.meta.env.BASE_URL}bunnies-bistro/5.png`,
+    ],
+    repository: "https://gitlab.com/bunniesbistro/bunnies-bistro",
+  },
+  {
+    id: 9,
     title: {
       en: "This portfolio",
       fr: "Ce portfolio",
@@ -109,7 +202,11 @@ export const projects = [
     },
     tags: ["React", "ChakraUI"],
     thumbnail: `${import.meta.env.BASE_URL}portfolio/thumbnail.png`,
-    images: [`${import.meta.env.BASE_URL}portfolio/1.png`, `${import.meta.env.BASE_URL}portfolio/2.png`, `${import.meta.env.BASE_URL}portfolio/3.png`],
+    images: [
+      `${import.meta.env.BASE_URL}portfolio/1.png`,
+      `${import.meta.env.BASE_URL}portfolio/2.png`,
+      `${import.meta.env.BASE_URL}portfolio/3.png`,
+    ],
     repository: "https://github.com/0lbap/0lbap.github.io",
   },
-]
+];
