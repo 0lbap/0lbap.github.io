@@ -193,6 +193,91 @@ export const projects = [
   {
     id: 9,
     title: {
+      en: "Integrating ChatGPT in the QT robot",
+      fr: "Intégration de ChatGPT dans le robot QT",
+    },
+    description: {
+      en: "This research project aims to integrate a generative AI model in a social robot to implement the ability to listen, speak and show emotions. It was made in collaboration with the LIRMM laboratory during one semester, leading to a report and a defence, as well as a research paper published in SGAI 2024. A demonstration was carried out in a primary school classroom.",
+      fr: "Ce projet de recherche consiste à intégrer un modèle d'IA générative dans un robot social pour implémenter les capacités d'écoute, de discussion et d'affichage d'émotions. Il a été réalisé en collaboration avec le laboratoire du LIRMM durant un semestre, se concluant sur un rapport, une soutenance, ainsi qu'un papier de recherche publié dans SGAI 2024. Une démonstration a été effectuée dans une classe d'une école primaire.",
+    },
+    tags: ["Python", "ROS", "AI", "Research"],
+    thumbnail: `${import.meta.env.BASE_URL}qt/thumbnail.png`,
+    images: [
+      `${import.meta.env.BASE_URL}qt/1.png`,
+      `${import.meta.env.BASE_URL}qt/2.png`,
+      `${import.meta.env.BASE_URL}qt/3.png`,
+      `${import.meta.env.BASE_URL}qt/4.jpg`,
+    ],
+    repository: "https://gitlab.com/macrosoft-qt",
+  },
+  {
+    id: 10,
+    title: {
+      en: "“LinkedOut”, an app for searching and posting job offers",
+      fr: "“LinkedOut”, application de recherche et de publication d'offres d'emplois",
+    },
+    description: {
+      en: "In this project, we designed and developed a modern mobile application based on given user stories. This application allows individuals to browse and apply for job offers, while companies can post job offers and accept or reject candidates. The Android application was developed using Kotlin and Jetpack Compose, and the API was created using Firebase services.",
+      fr: "Dans ce projet, nous avons conçu et développé une application mobile moderne à partir de user stories données. Cette application permet aux particuliers de consulter et candidater à des offres et aux entreprises de publier des offres d'emplois et accepter ou refuser les candidats. L'application Android a été développée avec Kotlin et Jetpack Compose, et l'API a été créée en utilisant des services Firebase.",
+    },
+    tags: ["Kotlin", "Firebase", "NoSQL"],
+    thumbnail: `${import.meta.env.BASE_URL}linkedout/thumbnail.png`,
+    images: [
+      `${import.meta.env.BASE_URL}linkedout/1.png`,
+      `${import.meta.env.BASE_URL}linkedout/2.png`,
+      `${import.meta.env.BASE_URL}linkedout/3.png`,
+      `${import.meta.env.BASE_URL}linkedout/4.png`,
+      `${import.meta.env.BASE_URL}linkedout/5.png`,
+      `${import.meta.env.BASE_URL}linkedout/6.png`,
+    ],
+    repository: "https://gitlab.com/pablolaviron/linkedout",
+  },
+  {
+    id: 11,
+    title: {
+      en: "“ErrBmb”, an online platform for rental accommodations",
+      fr: "“ErrBmb”, une plateforme de location et de réservation de logements",
+    },
+    description: {
+      en: "The goal of this project is to explore the MEAN stack by developing an application that allows users to log in, create an account, and book rentals for specific periods. The application uses Mapbox for maps, JWT for authentication, and Zod for type validation. We developed and deployed both the client and API on the Render platform.",
+      fr: "L'objectif de ce projet est de découvrir la stack MEAN en développant une application permettant à un utilisateur de se connecter, créer un compte, et réserver des biens immobiliers sur des périodes définies. L'application utilise notamment Mapbox pour les cartes, JWT pour l'authentification et Zod pour la vérification de types. Nous avons développé puis déployé le client et l'API sur la plateforme Render.",
+    },
+    tags: ["Angular", "MongoDB", "Express"],
+    thumbnail: `${import.meta.env.BASE_URL}errbmb/thumbnail.png`,
+    images: [
+      `${import.meta.env.BASE_URL}errbmb/1.png`,
+      `${import.meta.env.BASE_URL}errbmb/2.png`,
+      `${import.meta.env.BASE_URL}errbmb/3.png`,
+      `${import.meta.env.BASE_URL}errbmb/4.png`,
+    ],
+    repository: "https://github.com/ErrBmb",
+  },
+  {
+    id: 12,
+    title: {
+      en: "“Vibes”, an emotional assistant app powered by AI",
+      fr: "“Vibes”, une application d'assistant émotionnel propulsé par l'IA",
+    },
+    description: {
+      en: "The goal of this project is to complete the design, development, and testing of a mobile application in one semester, using generative AI as a tool. The application includes a daily journal where the user can check which emotions they feel, a chat-based AI assistant and an history graph of the emotions. After creating a prototype on Figma, we developed a REST API in Python, as well as an Android mobile interface using Kotlin and Jetpack Compose. Testing was done with Postman.",
+      fr: "Le but de ce projet est d'effectuer en un semestre la conception, le développement et le test d'une application mobile en utilisant l'IA générative comme outil. L'application inclut un journal quotidien où l'utilisateur peut cocher les émotions qu'il ressent, un assistant conversationnel IA et un graphique historique des émotions. Après l'élaboration d'un prototype sur Figma, nous avons développé une API REST en Python, ainsi qu'une interface mobile Android avec Kotlin et Jetpack Compose. Les tests ont été effectués avec Postman.",
+    },
+    tags: ["Kotlin", "Python", "FastAPI", "AI"],
+    thumbnail: `${import.meta.env.BASE_URL}vibes/thumbnail.png`,
+    images: [
+      `${import.meta.env.BASE_URL}vibes/1.png`,
+      `${import.meta.env.BASE_URL}vibes/2.png`,
+      `${import.meta.env.BASE_URL}vibes/3.png`,
+      `${import.meta.env.BASE_URL}vibes/4.png`,
+      `${import.meta.env.BASE_URL}vibes/5.png`,
+      `${import.meta.env.BASE_URL}vibes/6.png`,
+      `${import.meta.env.BASE_URL}vibes/7.png`,
+    ],
+    repository: "https://gitlab.com/app-vibes/",
+  },
+  {
+    id: 13,
+    title: {
       en: "This portfolio",
       fr: "Ce portfolio",
     },
