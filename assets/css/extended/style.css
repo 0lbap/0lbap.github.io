@@ -1,0 +1,16 @@
+body {
+  font-family: "Lora", Georgia, "Times New Roman", serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.breadcrumbs,
+.logo,
+.nav,
+.page-footer {
+  font-family: "Poppins", "Helvetica Neue", Arial, sans-serif;
+}
