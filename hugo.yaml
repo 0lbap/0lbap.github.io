@@ -210,3 +210,7 @@ services:
     disableInlineCSS: true
   twitter:
     disableInlineCSS: true
+
+caches:
+  images:
+    dir: :cacheDir/images
