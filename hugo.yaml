@@ -24,9 +24,7 @@ languages:
     languageName: ":uk:"
     weight: 1
     taxonomies:
-      category: categories
       tag: tags
-      series: series
     menu:
       main:
         - name: Portfolio
@@ -45,9 +43,7 @@ languages:
     languageName: ":fr:"
     weight: 1
     taxonomies:
-      category: categories
       tag: tags
-      series: series
     menu:
       main:
         - name: Portfolio
@@ -70,8 +66,8 @@ languages:
 
           - 
 
-          - Bienvenue sur mon site web personnel ! Vous trouverez un extrait de mon travail dans la section [Portfolio](/portfolio), et mes articles / posts de blog dans la section [Écriture](/writing). Si vous souhaitez en savoir plus sur moi, visitez la section [À propos](/about) !
-      DateFormat: "2 January 2001"
+          - Bienvenue sur mon site web personnel ! Vous trouverez un extrait de mon travail dans la section [Portfolio](/portfolio), et mes articles / posts de blog dans la section [Écriture](/writing).
+      DateFormat: "2 January 2006"
 
 outputs:
   home:
@@ -122,7 +118,7 @@ params:
 
       - 
 
-      - Welcome to my personal website! You will find some of my work in the [Portfolio](/portfolio) section, and my articles / blogs in the [Writing](/writing) section. If you want to learn more about me, visit the [About](/about) section!
+      - Welcome to my personal website! You will find some of my work in the [Portfolio](/portfolio) section, and my articles / blogs in the [Writing](/writing) section.
 
   socialIcons:
     - name: github
@@ -208,7 +204,7 @@ markup:
 services:
   instagram:
     disableInlineCSS: true
-  twitter:
+  x:
     disableInlineCSS: true
 
 caches:
